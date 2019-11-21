@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-U4d/Pods-U4d-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Blueprints/Blueprints.framework
+${BUILT_PRODUCTS_DIR}/Defaults/Defaults.framework
+${BUILT_PRODUCTS_DIR}/Hero/Hero.framework
+${BUILT_PRODUCTS_DIR}/Hue/Hue.framework
+${BUILT_PRODUCTS_DIR}/MonkeyKing/MonkeyKing.framework
+${BUILT_PRODUCTS_DIR}/Path.swift/Path_swift.framework
+${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework

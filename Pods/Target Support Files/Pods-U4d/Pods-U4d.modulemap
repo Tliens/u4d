@@ -1,0 +1,6 @@
+framework module Pods_U4d {
+  umbrella header "Pods-U4d-umbrella.h"
+
+  export *
+  module * { export * }
+}

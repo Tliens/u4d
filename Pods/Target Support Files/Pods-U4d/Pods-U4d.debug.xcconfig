@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Blueprints" "${PODS_CONFIGURATION_BUILD_DIR}/Defaults" "${PODS_CONFIGURATION_BUILD_DIR}/Hero" "${PODS_CONFIGURATION_BUILD_DIR}/Hue" "${PODS_CONFIGURATION_BUILD_DIR}/MonkeyKing" "${PODS_CONFIGURATION_BUILD_DIR}/Path.swift" "${PODS_CONFIGURATION_BUILD_DIR}/Proposer" "${PODS_CONFIGURATION_BUILD_DIR}/Realm" "${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift" "${PODS_CONFIGURATION_BUILD_DIR}/XLPagerTabStrip"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Blueprints/Blueprints.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Defaults/Defaults.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Hero/Hero.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Hue/Hue.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MonkeyKing/MonkeyKing.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Path.swift/Path_swift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Proposer/Proposer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Realm/Realm.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift/RealmSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Realm/core"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "Blueprints" -framework "Defaults" -framework "Foundation" -framework "Hero" -framework "Hue" -framework "MonkeyKing" -framework "Path_swift" -framework "Proposer" -framework "Realm" -framework "RealmSwift" -framework "Security" -framework "UIKit" -framework "XLPagerTabStrip"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

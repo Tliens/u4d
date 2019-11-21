@@ -1,0 +1,58 @@
+PODS:
+  - Blueprints (0.13.1)
+  - Defaults (3.1.1)
+  - Hero (1.4.0)
+  - Hue (5.0.0)
+  - MonkeyKing (1.16.0)
+  - Path.swift (0.16.3)
+  - Proposer (1.2.1)
+  - Realm (3.20.0):
+    - Realm/Headers (= 3.20.0)
+  - Realm/Headers (3.20.0)
+  - RealmSwift (3.20.0):
+    - Realm (= 3.20.0)
+  - SwiftLint (0.37.0)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - Blueprints
+  - Defaults
+  - Hero
+  - Hue
+  - MonkeyKing
+  - Path.swift
+  - Proposer
+  - RealmSwift
+  - SwiftLint
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  trunk:
+    - Blueprints
+    - Defaults
+    - Hero
+    - Hue
+    - MonkeyKing
+    - Path.swift
+    - Proposer
+    - Realm
+    - RealmSwift
+    - SwiftLint
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Blueprints: ddd6ab1e455c98471aaef2fdd0b09b5f9b53af5b
+  Defaults: bcfbdb87d0b63fb302d70791b72f62f0f29d26aa
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  MonkeyKing: dc5076dc206bf9e6eb427d618317eff1b44b0666
+  Path.swift: 650caeeaae5e4254ab09e69bea4a4bc152486f7f
+  Proposer: 97409ade1f80d8b19bba20972c03c9253bdd59b1
+  Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
+  RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
+  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: 53aa02baf83e0e1a2ee49a0d1641145c79beefa5
+
+COCOAPODS: 1.8.3
