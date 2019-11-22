@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,11 @@
 		E42EC4DF238676B300985E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42EC4DD238676B300985E59 /* Main.storyboard */; };
 		E42EC4E1238676B400985E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42EC4E0238676B400985E59 /* Assets.xcassets */; };
 		E42EC4E4238676B400985E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42EC4E2238676B400985E59 /* LaunchScreen.storyboard */; };
+		E42EC4EE2387C2D900985E59 /* PasswordViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42EC4ED2387C2D900985E59 /* PasswordViewController.storyboard */; };
+		E42EC4F02387C2EC00985E59 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC4EF2387C2EC00985E59 /* PasswordViewController.swift */; };
+		E42EC4F32387CFE300985E59 /* DENetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC4F22387CFE300985E59 /* DENetManager.swift */; };
+		E42EC4F52387D0F400985E59 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC4F42387D0F400985E59 /* Constants.swift */; };
+		E42EC4F72387D26900985E59 /* NetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC4F62387D26900985E59 /* NetManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		E42EC4E0238676B400985E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E42EC4E3238676B400985E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E42EC4E5238676B400985E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42EC4ED2387C2D900985E59 /* PasswordViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PasswordViewController.storyboard; sourceTree = "<group>"; };
+		E42EC4EF2387C2EC00985E59 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		E42EC4F22387CFE300985E59 /* DENetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DENetManager.swift; sourceTree = "<group>"; };
+		E42EC4F42387D0F400985E59 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E42EC4F62387D26900985E59 /* NetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetManager.swift; sourceTree = "<group>"; };
 		F1A08D7AED81E15D576A44AA /* Pods-U4d.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U4d.debug.xcconfig"; path = "Target Support Files/Pods-U4d/Pods-U4d.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +62,6 @@
 				F1A08D7AED81E15D576A44AA /* Pods-U4d.debug.xcconfig */,
 				CB4465978E5FB5C77F0BD487 /* Pods-U4d.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,6 +86,8 @@
 		E42EC4D6238676B300985E59 /* U4d */ = {
 			isa = PBXGroup;
 			children = (
+				E42EC4F12387CF4500985E59 /* NetWorkManager */,
+				E42EC4EC2387BEE600985E59 /* PasswordViewController */,
 				E42EC4EB2386771500985E59 /* AppSupports */,
 			);
 			path = U4d;
@@ -90,8 +101,27 @@
 				E42EC4E0238676B400985E59 /* Assets.xcassets */,
 				E42EC4E2238676B400985E59 /* LaunchScreen.storyboard */,
 				E42EC4E5238676B400985E59 /* Info.plist */,
+				E42EC4F42387D0F400985E59 /* Constants.swift */,
 			);
 			path = AppSupports;
+			sourceTree = "<group>";
+		};
+		E42EC4EC2387BEE600985E59 /* PasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E42EC4ED2387C2D900985E59 /* PasswordViewController.storyboard */,
+				E42EC4EF2387C2EC00985E59 /* PasswordViewController.swift */,
+			);
+			path = PasswordViewController;
+			sourceTree = "<group>";
+		};
+		E42EC4F12387CF4500985E59 /* NetWorkManager */ = {
+			isa = PBXGroup;
+			children = (
+				E42EC4F22387CFE300985E59 /* DENetManager.swift */,
+				E42EC4F62387D26900985E59 /* NetManager.swift */,
+			);
+			path = NetWorkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +186,7 @@
 			files = (
 				E42EC4E4238676B400985E59 /* LaunchScreen.storyboard in Resources */,
 				E42EC4E1238676B400985E59 /* Assets.xcassets in Resources */,
+				E42EC4EE2387C2D900985E59 /* PasswordViewController.storyboard in Resources */,
 				E42EC4DF238676B300985E59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42EC4F32387CFE300985E59 /* DENetManager.swift in Sources */,
 				E42EC4D8238676B300985E59 /* AppDelegate.swift in Sources */,
+				E42EC4F02387C2EC00985E59 /* PasswordViewController.swift in Sources */,
+				E42EC4F72387D26900985E59 /* NetManager.swift in Sources */,
+				E42EC4F52387D0F400985E59 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

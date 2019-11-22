@@ -161,24 +161,28 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Blueprints/Blueprints.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Defaults/Defaults.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hero/Hero.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hue/Hue.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JXPatternLock/JXPatternLock.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MonkeyKing/MonkeyKing.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Path.swift/Path_swift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PathKit/PathKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Blueprints/Blueprints.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Defaults/Defaults.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hero/Hero.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Hue/Hue.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JXPatternLock/JXPatternLock.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MonkeyKing/MonkeyKing.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Path.swift/Path_swift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PathKit/PathKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Realm/Realm.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework"
