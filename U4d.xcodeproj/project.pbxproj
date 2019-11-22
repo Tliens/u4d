@@ -17,6 +17,17 @@
 		E42EC4F32387CFE300985E59 /* DENetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC4F22387CFE300985E59 /* DENetManager.swift */; };
 		E42EC4F52387D0F400985E59 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC4F42387D0F400985E59 /* Constants.swift */; };
 		E42EC4F72387D26900985E59 /* NetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC4F62387D26900985E59 /* NetManager.swift */; };
+		E42EC5102387EBD000985E59 /* GlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC50F2387EBD000985E59 /* GlobalFunction.swift */; };
+		E42EC51B2387EBF300985E59 /* ArrowConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC5172387EBEB00985E59 /* ArrowConfig.swift */; };
+		E42EC51C2387EBF300985E59 /* FishLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC51A2387EBEB00985E59 /* FishLineConfig.swift */; };
+		E42EC51D2387EBF300985E59 /* GrayRoundConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC5182387EBEB00985E59 /* GrayRoundConfig.swift */; };
+		E42EC51E2387EBF300985E59 /* ImageConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC5152387EBEB00985E59 /* ImageConfig.swift */; };
+		E42EC51F2387EBF300985E59 /* ImageLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC5112387EBEB00985E59 /* ImageLineConfig.swift */; };
+		E42EC5202387EBF300985E59 /* NightBlueConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC5142387EBEB00985E59 /* NightBlueConfig.swift */; };
+		E42EC5212387EBF300985E59 /* RotateImageConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC5132387EBEB00985E59 /* RotateImageConfig.swift */; };
+		E42EC5222387EBF300985E59 /* ShadowConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC5122387EBEB00985E59 /* ShadowConfig.swift */; };
+		E42EC5232387EBF300985E59 /* WhiteFillConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC5192387EBEB00985E59 /* WhiteFillConfig.swift */; };
+		E42EC5242387EBF300985E59 /* WhiteRoundConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42EC5162387EBEB00985E59 /* WhiteRoundConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +44,17 @@
 		E42EC4F22387CFE300985E59 /* DENetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DENetManager.swift; sourceTree = "<group>"; };
 		E42EC4F42387D0F400985E59 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E42EC4F62387D26900985E59 /* NetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetManager.swift; sourceTree = "<group>"; };
+		E42EC50F2387EBD000985E59 /* GlobalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunction.swift; sourceTree = "<group>"; };
+		E42EC5112387EBEB00985E59 /* ImageLineConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLineConfig.swift; sourceTree = "<group>"; };
+		E42EC5122387EBEB00985E59 /* ShadowConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowConfig.swift; sourceTree = "<group>"; };
+		E42EC5132387EBEB00985E59 /* RotateImageConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageConfig.swift; sourceTree = "<group>"; };
+		E42EC5142387EBEB00985E59 /* NightBlueConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightBlueConfig.swift; sourceTree = "<group>"; };
+		E42EC5152387EBEB00985E59 /* ImageConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConfig.swift; sourceTree = "<group>"; };
+		E42EC5162387EBEB00985E59 /* WhiteRoundConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteRoundConfig.swift; sourceTree = "<group>"; };
+		E42EC5172387EBEB00985E59 /* ArrowConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowConfig.swift; sourceTree = "<group>"; };
+		E42EC5182387EBEB00985E59 /* GrayRoundConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayRoundConfig.swift; sourceTree = "<group>"; };
+		E42EC5192387EBEB00985E59 /* WhiteFillConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteFillConfig.swift; sourceTree = "<group>"; };
+		E42EC51A2387EBEB00985E59 /* FishLineConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishLineConfig.swift; sourceTree = "<group>"; };
 		F1A08D7AED81E15D576A44AA /* Pods-U4d.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U4d.debug.xcconfig"; path = "Target Support Files/Pods-U4d/Pods-U4d.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +108,7 @@
 		E42EC4D6238676B300985E59 /* U4d */ = {
 			isa = PBXGroup;
 			children = (
+				E42EC50E2387EB7D00985E59 /* GlobalFunction */,
 				E42EC4F12387CF4500985E59 /* NetWorkManager */,
 				E42EC4EC2387BEE600985E59 /* PasswordViewController */,
 				E42EC4EB2386771500985E59 /* AppSupports */,
@@ -111,6 +134,7 @@
 			children = (
 				E42EC4ED2387C2D900985E59 /* PasswordViewController.storyboard */,
 				E42EC4EF2387C2EC00985E59 /* PasswordViewController.swift */,
+				E42EC4F82387E6BD00985E59 /* Models */,
 			);
 			path = PasswordViewController;
 			sourceTree = "<group>";
@@ -122,6 +146,39 @@
 				E42EC4F62387D26900985E59 /* NetManager.swift */,
 			);
 			path = NetWorkManager;
+			sourceTree = "<group>";
+		};
+		E42EC4F82387E6BD00985E59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E42EC4F92387E6C400985E59 /* Configs */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E42EC4F92387E6C400985E59 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				E42EC5172387EBEB00985E59 /* ArrowConfig.swift */,
+				E42EC51A2387EBEB00985E59 /* FishLineConfig.swift */,
+				E42EC5182387EBEB00985E59 /* GrayRoundConfig.swift */,
+				E42EC5152387EBEB00985E59 /* ImageConfig.swift */,
+				E42EC5112387EBEB00985E59 /* ImageLineConfig.swift */,
+				E42EC5142387EBEB00985E59 /* NightBlueConfig.swift */,
+				E42EC5132387EBEB00985E59 /* RotateImageConfig.swift */,
+				E42EC5122387EBEB00985E59 /* ShadowConfig.swift */,
+				E42EC5192387EBEB00985E59 /* WhiteFillConfig.swift */,
+				E42EC5162387EBEB00985E59 /* WhiteRoundConfig.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		E42EC50E2387EB7D00985E59 /* GlobalFunction */ = {
+			isa = PBXGroup;
+			children = (
+				E42EC50F2387EBD000985E59 /* GlobalFunction.swift */,
+			);
+			path = GlobalFunction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,11 +297,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42EC5242387EBF300985E59 /* WhiteRoundConfig.swift in Sources */,
+				E42EC5202387EBF300985E59 /* NightBlueConfig.swift in Sources */,
+				E42EC5222387EBF300985E59 /* ShadowConfig.swift in Sources */,
+				E42EC51D2387EBF300985E59 /* GrayRoundConfig.swift in Sources */,
+				E42EC51B2387EBF300985E59 /* ArrowConfig.swift in Sources */,
+				E42EC5102387EBD000985E59 /* GlobalFunction.swift in Sources */,
 				E42EC4F32387CFE300985E59 /* DENetManager.swift in Sources */,
 				E42EC4D8238676B300985E59 /* AppDelegate.swift in Sources */,
+				E42EC5232387EBF300985E59 /* WhiteFillConfig.swift in Sources */,
 				E42EC4F02387C2EC00985E59 /* PasswordViewController.swift in Sources */,
+				E42EC51F2387EBF300985E59 /* ImageLineConfig.swift in Sources */,
 				E42EC4F72387D26900985E59 /* NetManager.swift in Sources */,
+				E42EC51E2387EBF300985E59 /* ImageConfig.swift in Sources */,
+				E42EC5212387EBF300985E59 /* RotateImageConfig.swift in Sources */,
 				E42EC4F52387D0F400985E59 /* Constants.swift in Sources */,
+				E42EC51C2387EBF300985E59 /* FishLineConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

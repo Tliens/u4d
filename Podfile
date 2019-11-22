@@ -15,4 +15,5 @@ target 'U4d' do
   pod 'XLPagerTabStrip'
   pod 'JXPatternLock'
   pod 'Alamofire'
+  pod 'HEPhotoPicker'
 end

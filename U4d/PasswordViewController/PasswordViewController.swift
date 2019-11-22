@@ -7,24 +7,40 @@
 //
 
 import UIKit
-import Alamofire
+import JXPatternLock
 class PasswordViewController: UIViewController {
-    let manager = DENetManager.manager
+    var lockView: PatternLockView!
+    let config: PatternLockViewConfig = GrayRoundConfig()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        lockView = PatternLockView(config: config)
+        lockView.delegate = self
+        view.addSubview(lockView)
     }
-
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let url = URL(string: "https://119.23.165.102" + "/ios/config")
-        let request = manager.request(url!, method: .get)
-        request.response{ (response) in
-            print(response)
-            
-        }
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         
+        let lockWidth = 300
+        lockView.bounds = CGRect(x: 0, y: 0, width: lockWidth, height: lockWidth)
+        lockView.center = CGPoint(x: view.bounds.size.width/2, y: view.bounds.size.height/2)
     }
+    
 }
 
+extension PasswordViewController:PatternLockViewDelegate{
+    func lockView(_ lockView: PatternLockView, didConnectedGrid grid: PatternLockGrid) {
+        
+    }
+    
+    func lockViewShouldShowErrorBeforeConnectCompleted(_ lockView: PatternLockView) -> Bool {
+        
+        return true
+    }
+    
+    func lockViewDidConnectCompleted(_ lockView: PatternLockView) {
+        
+    }
+    
+    
+}
